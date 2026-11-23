@@ -163,3 +163,69 @@ body::before {
 .terms a:hover {
     text-decoration: underline;
 }
+/* Responsive styles for Netflix login page */
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    /* Adjust header logo size */
+    .header {
+        text-align: center;
+    }
+    .logo img {
+        width: 120px;
+    }
+    /* Adjust login box */
+    .login_box {
+        padding: 20px;
+    }
+    /* Adjust input fields */
+    .input_box input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    /* Adjust remember me checkbox */
+    .remember {
+        margin-top: 10px;
+    }
+}
+
+/* Tablets and smaller desktops */
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /* Adjust header logo size */
+    .header {
+        text-align: center;
+    }
+    .logo img {
+        width: 150px;
+    }
+    /* Adjust input fields */
+    .input_box input {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Larger desktops */
+@media screen and (min-width: 768px) {
+    /* Adjust header logo size */
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .logo img {
+        width: 200px;
+    }
+    /* Adjust login box */
+    .login_box {
+        width: 400px;
+        margin: 0 auto;
+    }
+    /* Adjust input fields */
+    .input_box input {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
